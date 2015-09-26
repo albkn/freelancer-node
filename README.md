@@ -23,7 +23,7 @@
   * `.getById(bidId, data, callback)` ==> Bids->Get Bid by ID
   * `.create(data, callback)` ==> Bids->Bid on a Project
   * `.update(bidId, data, callback)` ==> Bids->Update Existing Bid
-  * `.performBid(bidId, data, callback)` ==> Bids->Perform Bid Action
+  * `.performAction(bidId, data, callback)` ==> Bids->Perform Bid Action
   * `.setBidAward(bidId, data, callback)` ==> Bids->Set Bid Award Status
 * **Freelancer.Jobs**
   * `.get(data, callback)` ==> Jobs->Get Jobs
