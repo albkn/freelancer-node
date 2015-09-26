@@ -1,5 +1,5 @@
 {
-  "name": "freelancer-sdk",
+  "name": "freelancer-node",
   "version": "0.0.1",
   "description": "Wrapper on the Freelancer REST API",
   "main": "freelancer.js",
