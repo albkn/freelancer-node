@@ -5,8 +5,7 @@ module.exports = function(developerId, developerKey) {
   Freelancer.DEVELOPER_ID = developerId;
   Freelancer.DEVELOPER_KEY = developerKey;
   // API constants
-  Freelancer.DEFAULT_HOST = 'freelancer.com';
-  // Freelancer.DEFAULT_HOST = 'hackathon.syd1.fln-dev.net';
+  Freelancer.DEFAULT_HOST = 'www.freelancer.com';
   Freelancer.DEFAULT_PORT = '443';
   Freelancer.DEFAULT_PATH = '/api/';
 
