@@ -40,3 +40,12 @@
 * **Freelancer.Reviews**
   * `.get(data, callback)` ==> Reviews->Get Project Reviews
   * `.create(data, callback)` ==> Reviews->Post a Review
+* **Freelancer.Threads**
+  * `.create(data, callback)` ==> Messaging->Threads->Create New Threads
+  * `.addMessage(threadId, data, callback)` ==> Messaging->Threads->Add New Message to threadId
+  * `.searchForMessages(data, callback)` ==> Messaging->Threads->Search Threads for Messages
+  * `.get(data, callback)` ==> Messaging->Threads->Get Threads
+  * `.update(data, callback)` ==> Messaging->Threads->Update Threads
+  * `.sendTypingNotification(threadId, data, callback)` ==> Messaging->Threads->Send Typing Notification
+  * `.getById(threadId, data, callback)` ==> Messaging->Threads->Get Thread by ID
+  * `.addRemoveUser(threadId, data, callback)` ==> Messaging->Threads->Add/Remove Users from Thread
