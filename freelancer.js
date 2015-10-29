@@ -17,6 +17,7 @@ module.exports = function(developerId, developerKey) {
   Freelancer.Milestones = require('./lib/milestones.js')(RB);
   Freelancer.MilestoneRequests = require('./lib/milestone_requests.js')(RB);
   Freelancer.Reviews = require('./lib/reviews.js')(RB);
+  Freelancer.Threads = require('./lib/threads.js')(RB);
 
   return Freelancer;
 };
