@@ -13,5 +13,8 @@
     "api"
   ],
   "author": "Albert Kurniawan <kurniawan.albert19@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "qs": "^5.2.0"
+  }
 }
